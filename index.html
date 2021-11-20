@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>My Portofolio</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+    crossorigin="anonymous">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/mahatma.jpg" alt="My profile picture" class="img-circle">
+      <h1>Mahatma</h1>
+      <p>Wall Climber | Junior Web Developer</p>
+    </div>
+    <!-- Akhir jumbotron -->
+  </header>
+
+  <main>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1">
+            <p>Hai! Perkenalkan nama ku Mahatma. Aku berumur 14 tahun dan aku kelas 3 SMP. Tempat tinggal ku berada di pulau seribu pura. Aku tinggal bersama kedua orang tua ku dan dua kakak ku. Iya, aku adalah anak paling kecil di keluarga ku. Waktu kecil aku suka bermain game; tapi sekarang, aku sudah bosan bermain game. Sekarang hobi ku adalah <strong>programming</strong>.</p>
+          </div>
+          <div class="col-sm-5">
+            <p>Aku memulai perjalanan hidup ku sebagai programmer dimulai pada <em>Januari 2021</em>. Aku belajar pemrograman pertama kali di channel YouTube <em>Kelas Terbuka</em> dengan bahasa pemrograman <em>Python</em>. Aku mulai (dan saat ini) belajar mengenai pemrograman menggunakan komputer <em>bapak</em> ku. Ini adalah sebuah website yang aku buat sebagai pembelajaran mengenai web programming. Jadi, <strong>selamat menikmati!</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Portofolio -->
+    <section class="portofolio" id="portofolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Portofolio</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/1.jpg" alt="Donut stroberi 3 dimensi">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/2.jpg" alt="Tulisan neon di dinding">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/3.jpg" alt="Aku melihat awan" title="Melihat masa depan">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/4.jpg" alt="Candid diri ku">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/5.jpg" alt="Hutan lebat">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/portofolio/6.jpg" alt="Sepeda ku">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Akhir portofolio -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Contact</h2>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="contact-container">
+        <div class="col-sm-8 col-sm-offset-2">
+          <form>
+            <div class="form-group">
+              <label for="nama">Nama</label>
+              <input type="text" id="nama" class="form-control" placeholder="Wiro Sableng"
+                autocomplete="on">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="contoh@contoh.com"
+                autocomplete="on">
+            </div>
+            <div class="form-group">
+              <label for="telp">No. Telepon</label>
+              <input type="tel" id="telp" class="form-control" placeholder="08xxxxxxxxxx"
+                autocomplete="on">
+            </div>
+            <div class="form-group">
+              <label for="kategori">Kategori Pesan</label>
+              <select class="form-control" id="kategori">
+                <option>-- Pilih Kategori --</option>
+                <option>Web Design</option>
+                <option>Web Development</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea id="pesan" rows="10" class="form-control"
+                placeholder="Saya suka website anda!"></textarea>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir contact -->
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Copyright <i class="glyphicon glyphicon-copyright-mark copyright"></i> 2021 | built
+            with <i class="glyphicon glyphicon-heart heart"></i> by. <a
+              href="https://www.instagram.com/mahatma_19/" target="_blank">Mahatma</a>.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="https://www.youtube.com/channel/UChiTduER_nlTy1ndO2qhpzg" class="btn btn-danger"
+            target="_blank"><i class="glyphicon glyphicon-play"></i> Subscribe to YouTube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir Footer -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

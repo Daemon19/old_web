@@ -1,0 +1,71 @@
+:root {
+    --footer-height: 120px;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: var(--footer-height);
+}
+
+section {
+    min-height: 600px;
+}
+
+hr {
+    width: 200px;
+    border-top: 3px solid #999;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: var(--footer-height);
+    background-color: #333;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 1em;
+}
+
+footer div.container {
+    /* Center footer content */
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+i.heart {
+    color: salmon;
+}
+
+i.copyright {
+    color: white;
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 5px solid #000;
+}
+
+.portofolio {
+    background-color: #eee;
+}
+
+div.form-group * {
+    margin-bottom: 20px
+}
+
+#contact-container {
+    /* Horizontal scrollbar bug */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#about p {
+    font-size: 1.2em;
+}
