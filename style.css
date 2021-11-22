@@ -48,7 +48,7 @@ i.copyright {
 }
 
 .jumbotron img {
-    width: 200px;
+    width: 300px;
     border: 5px solid #000;
 }
 
@@ -57,7 +57,7 @@ i.copyright {
 }
 
 div.form-group * {
-    margin-bottom: 20px
+    margin-bottom: 5px
 }
 
 #contact-container {
