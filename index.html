@@ -1,264 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-
-    <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
-    />
-
-    <!-- My CSS -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
     <link rel="stylesheet" href="style.css" />
-
-    <title>My Portofolio | Mahatma</title>
   </head>
-  <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Mahatma</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#contact">Contack Me</a>
-            </li>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="judul">My Website</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Akhir Navbar -->
-
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img
-        src="img/profile.jpg"
-        alt="Me as a kid"
-        width="350"
-        class="rounded-circle img-thumbnail"
-      />
-      <h1 class="display-4">Mahatma</h1>
-      <p class="lead">Wall Climber | Junior Web Developer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,160L34.3,165.3C68.6,171,137,181,206,160C274.3,139,343,85,411,80C480,75,549,117,617,117.3C685.7,117,754,75,823,69.3C891.4,64,960,96,1029,128C1097.1,160,1166,192,1234,197.3C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir jumbotron -->
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-justify">
-          <div class="col-md-4">
-            <p>
-              Hai! Perkenalkan namaku Mahatma. Aku berumur 14 tahun dan aku kelas 3 SMP. Aku tinggal
-              di Pulau Seribu Pura. Aku tinggal bersama kedua orang tuaku dan dua kakakku. Iya, aku
-              adalah anak terkecil di keluargaku. Waktu kecil, aku suka bermain game. Tapi sekarang,
-              aku sudah bosan bermain game dan lebih tertarik dengan <b>programming</b>.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <p>
-              Aku memulai perjalanan hidupku sebagai programmer dimulai pada <i>Januari 2021</i>.
-              Aku belajar pemrograman pertama kali di channel YouTube <i>Kelas Terbuka</i> dengan
-              bahasa pemrograman <i>Python</i>. Aku mulai (dan saat ini) belajar mengenai
-              pemrograman menggunakan komputer <i>bapakku</i>. Ini adalah sebuah website yang aku
-              buat sebagai pembelajaran mengenai web programming. Di bagian selanjutnya, kamu
-              akan melihat foto-foto yang pernah kuambil lalu kuedit dengan Photoshop. Jadi,
-              <b>selamat menikmati!</b>
-            </p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,96L34.3,85.3C68.6,75,137,53,206,48C274.3,43,343,53,411,74.7C480,96,549,128,617,138.7C685.7,149,754,139,823,133.3C891.4,128,960,128,1029,138.7C1097.1,149,1166,171,1234,165.3C1302.9,160,1371,128,1406,112L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir About -->
-
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col mb-3">
-            <!-- Untuk sekarang, hanya berisi foto kucing -->
-            <h2>Projects</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Foto candid-ku" />
-              <div class="card-body">
-                <p class="card-text">Aku.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="Foto lilin di tengah malam" />
-              <div class="card-body">
-                <p class="card-text">
-                  Foto lilin yang kugunakan untuk menerangi malam saat mati lampu.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="Foto sepedaku" />
-              <div class="card-body">
-                <p class="card-text">Foto sepeda yang sering kugunakan untuk berolahraga.</p>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/projects/4.jpg" class="card-img-top" alt="Foto donut stroberi" />
-                <div class="card-body">
-                  <p class="card-text">
-                    Gambar yang kubuat saat belajar 3D dengan software Blender.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/projects/5.jpg" class="card-img-top" alt="Foto pura besakih" />
-                <div class="card-body">
-                  <p class="card-text">Foto yang kuambil saat sembahyang ke Pura Besakih.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,176C672,181,768,235,864,240C960,245,1056,203,1152,170.7C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir projects -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama lengkap</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  aria-describedby="name"
-                  placeholder="Nama Kamu"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  aria-describedby="email"
-                  placeholder="hanya@contoh.com"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Pesan</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="3"
-                  placeholder="Website mu keren!"
-                ></textarea>
-              </div>
-              <p>Note: <i>Contact Me</i> belum bekerja, tapi akan :)</p>
-              <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#0d6efd"
-          fill-opacity="1"
-          d="M0,224L34.3,208C68.6,192,137,160,206,160C274.3,160,343,192,411,192C480,192,549,160,617,165.3C685.7,171,754,213,823,208C891.4,203,960,149,1029,154.7C1097.1,160,1166,224,1234,245.3C1302.9,267,1371,245,1406,234.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir Contact -->
-
-    <!-- Footer -->
-    <footer class="text-white bg-primary text-center pb-5">
-      <p>
-        Created with <i class="bi bi-heart-fill text-danger"></i> by
-        <a href="https://www.instagram.com/mahatma_19/" target="_blank" class="text-white fw-bold"
-          >Mahatma</a
-        >
-      </p>
-    </footer>
-    <!-- Akhir footer -->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+        </nav>
+      </header>
+      <div class="hero"></div>
+      <main>
+        <h2>Judul Artikel</h2>
+        <p class="penulis">Ditulis oleh <a href="#">Mahatma</a> pada 6 Desember 2021</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, dolorum nostrum aspernatur
+          veniam, illo, aperiam aliquam quidem blanditiis voluptas veritatis quaerat optio quas
+          quis. Eaque officiis fugiat ex dolor suscipit!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem itaque ad
+          molestias fugiat quasi enim perspiciatis, eveniet quia minima sit voluptatibus beatae
+          officia perferendis commodi inventore consequuntur placeat quis. Enim minus laboriosam,
+          totam labore pariatur exercitationem. Ut dicta quo sapiente ipsam, vitae ab fugit dolor
+          nemo facilis tempora excepturi exercitationem aspernatur quisquam rem asperiores facere
+          pariatur, nisi accusantium culpa!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae saepe ea quisquam qui
+          quidem reiciendis nisi impedit quod esse dolorem, iusto ipsa porro, rerum est veniam unde
+          laboriosam adipisci sed. Inventore odio porro omnis soluta recusandae amet laudantium
+          obcaecati perspiciatis excepturi. Distinctio nam earum velit doloremque a ratione, totam
+          consectetur, in, aut necessitatibus provident cupiditate maxime soluta numquam quas
+          obcaecati deleniti. Hic, nostrum optio. Vitae veritatis ea sit ex, dolorum iure eveniet
+          voluptate, aspernatur earum aperiam vero fugit nisi impedit.
+        </p>
+      </main>
+      <footer>
+        <p class="copyright">Copyright &#169; 2021. Mahatma</p>
+      </footer>
+    </div>
   </body>
 </html>
