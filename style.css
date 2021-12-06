@@ -144,7 +144,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 960px;
   min-height: 100vh;
   margin: auto;
   background-color: white;
@@ -179,16 +179,20 @@ a:hover {
 }
 
 .hero {
-  height: 300px;
+  height: 350px;
   background-image: url(img/hero.jpg);
   background-size: cover;
   background-position: 0 -100px;
   border-bottom: 5px solid lightskyblue;
   border-top: 5px solid var(--mysalmon);
+  border-radius: 20px;
 }
 
 main {
   padding: 20px;
+  box-sizing: border-box;
+  width: 600px;
+  float: left;
 }
 
 main h2 {
@@ -204,6 +208,33 @@ main p {
   margin-bottom: 20px;
 }
 
+/* Sidebar */
+
+.sidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+}
+
+.sidebar img {
+  --size: 120px;
+  width: var(--size);
+  height: var(--size);
+  float: left;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.sidebar p {
+  font: 13px/20px sans-serif;
+}
+
 footer {
   background-color: #333;
   padding: 10px;
@@ -213,4 +244,17 @@ footer .copyright {
   color: #eee;
   text-align: center;
   font-size: 13px;
+}
+
+/* Micro Clear Fix */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
 }
